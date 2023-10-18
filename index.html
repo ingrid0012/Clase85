@@ -1,50 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>C85</title>
+
+<title>C87</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="Tmain.js"></script>
-
 </head>
-<body>
+
+<body class="body_background">
+
 <center>
-<h3 style="margin-top: 20px; margin-bottom: 20px; ">
-	Lista de alumnos en mi clase
-</h3>
-
-<div id="rows">
-<span>1</span>
-<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_1">
-<br>
-
-<span>2</span>
-<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_2">
-<br>
-
-<span>3</span>
-<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_3">
-<br>
-
-<span>4</span>
-<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_4">
-</div>
-
-<button onclick="submit()" id="botón_enviar">
-	Enviar
-</button>
-
-<div id="ver_nombre_con_comas">
-</div>
-
-<hr>
-
-<div id="ver_nombre_sin_comas">
-</div>
-
-<br>
+	<h1>Mi primer lienzo</h1>	
+	<canvas id="myCanvas" width="800" height="600"></canvas> <!--Así se crean los lienzos-->
+	<br>
+	
+	<!--ACTIVIDAD ADICIONAL -->
+	<span>Color - </span>  <input type="text" id="color">
+	<br>
+	<button onclick="clearArea();">Borrar</button>
 </center>
-<script type="text/javascript">
 
-</script>
+<script src="main.js"></script>
+
+
 </body>
 </html>
